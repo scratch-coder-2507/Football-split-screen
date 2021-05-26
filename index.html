@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178414546-2"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitScreen Slider</title>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gTag(){
+            dataLayer.push(arguments);
+        }
+        gTag('js', new Date());
+        gTag('config', 'UA-178414546-2');
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="wrapper" class="skewed">
+        <div class="layer bottom">
+            <div class="content-wrap">
+                <div class="content-body">
+                    <h1>Adidas</h1>
+                    <p>Copa isn't just a cleat. 
+                        It's an agreement that every fleeting touch should leave a lasting impression. 
+                        </p>
+                </div>
+                <img class="white" src="img/white.png" alt=""/>
+            </div>
+        </div>
+        <div class="layer top">
+            <div class="content-wrap">
+                <div class="content-body">
+                    <h1>Nike</h1>
+                    <p>After analysing thousands of football-specific moves, a tacky material was added 
+                        to give you better touch and control of the ball. </p>
+                </div>
+                <img class="black" src="img/black.png" alt=""/>
+            </div>
+        </div>
+        <div class="handle"></div>
+        <script src="js/main.js"></script>
+    </section>
+</body>
+</html>
